@@ -1,8 +1,8 @@
 import React from 'react';
 
 import FormHeader from './FormHeader';
-import CustomInput from './CustomInput';
-import Feedback from './Feedback';
+import CustomInput from '../Common/CustomInput';
+import Feedback from './FormFeedback';
 
 class Form extends React.Component {
     constructor(props) {
