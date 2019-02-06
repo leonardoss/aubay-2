@@ -1,0 +1,37 @@
+$primary-color:     #757DCF; //purple
+$secondary-color:   #375F8D; //blue
+$terciary-color:    #00BBEC;  //blue light
+
+$color-success: #04d14c;
+$color-error:   #f13d35;
+$color-waiting: #d1ad04;
+
+$body-bg:          #FFF !default;
+$text-color:       #fff !default;
+
+$font-family:       'Montserrat', sans-serif;
+$font-weight:       400;
+$font-size:         14px !default;
+$line-height:       140% !default;
+
+$link-color:                #152ECB !default;
+$link-hover-color:          #CCC !default;
+$link-hover-decoration:     none !default;
+
+$screen-xs-min:     480px !default;
+$screen-sm-min:     768px !default;
+$screen-md-min:     992px !default;
+$screen-lg-min:     1200px !default;
+
+$screen-xs-max:     ($screen-sm-min - 1) !default;
+$screen-sm-max:     ($screen-md-min - 1) !default;
+$screen-md-max:     ($screen-lg-min - 1) !default;
+
+$grid-columns:      12 !default;
+$grid-gutter:       30px !default;
+
+$container-sm:      (720px + $grid-gutter) !default;
+$container-md:      (940px + $grid-gutter) !default;
+$container-lg:      (1160px + $grid-gutter) !default;
+
+
