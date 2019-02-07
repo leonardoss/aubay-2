@@ -22,6 +22,10 @@ $ npm install
 $ npm start
 ```
 
+```
+$ npm tests
+```
+
 The application will be avaible on
 ```
 http://localhost:8000
