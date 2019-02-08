@@ -1,8 +1,14 @@
 import React from 'react';
-import Form from '../Form';
+import ReactDOM from 'react-dom';
+import Form from '../';
 import renderer from 'react-test-renderer';
 
-it('FormFeedback should renders correctly', () => {
-  const tree = renderer.create(<FormFeedback />).toJSON();
+it('renders without crashing', () => {
+  const div = document.createElement('div');
+  ReactDOM.render(<Form />, div);
+});
+
+it('should renders correctly', () => {
+  const tree = renderer.create(<Form />).toJSON();
   expect(tree).toMatchSnapshot();
 });

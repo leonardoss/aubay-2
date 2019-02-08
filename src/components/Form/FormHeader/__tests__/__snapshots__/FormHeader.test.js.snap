@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FormHeader should renders correctly 1`] = `
+exports[`should renders correctly 1`] = `
 <header>
   <h3
     className="title"

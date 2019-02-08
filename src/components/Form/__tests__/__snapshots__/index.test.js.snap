@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should renders correctly 1`] = `
+<form
+  action="/"
+  className="login-form"
+  id="login-form"
+  method="post"
+  onSubmit={[Function]}
+>
+  <header>
+    <h3
+      className="title"
+    >
+      Log in to our site
+    </h3>
+    <p
+      className="text"
+    >
+      Enter username or password to log on
+    </p>
+  </header>
+  <section>
+    <fieldset>
+      <legend>
+        form login
+      </legend>
+      <div
+        className="form-item "
+      >
+        <label
+          htmlFor="username"
+        >
+          <span
+            className="sr-only"
+          >
+            USERNAME
+          </span>
+          <input
+            className="input-text"
+            data-validate="type-required"
+            name="username"
+            onChange={[Function]}
+            placeholder="USERNAME"
+            type="text"
+          />
+          <span
+            className="msg-hidden"
+          >
+            
+          </span>
+        </label>
+      </div>
+      <div
+        className="form-item "
+      >
+        <label
+          htmlFor="password"
+        >
+          <span
+            className="sr-only"
+          >
+            PASSWORD
+          </span>
+          <input
+            className="input-text"
+            data-validate="type-required"
+            name="password"
+            onChange={[Function]}
+            placeholder="PASSWORD"
+            type="password"
+          />
+          <span
+            className="msg-hidden"
+          >
+            
+          </span>
+        </label>
+      </div>
+      <div
+        className="form-item"
+      >
+        <input
+          className="btn-submit"
+          disabled={true}
+          type="submit"
+          value="Sign in"
+        />
+        <span
+          className="msg-hidden"
+        >
+          
+        </span>
+      </div>
+      <div
+        className="form-item"
+      >
+        <p
+          className="extra"
+        >
+          Don't have an account? 
+          <a
+            href="#"
+          >
+            Sign up here
+          </a>
+        </p>
+      </div>
+    </fieldset>
+  </section>
+</form>
+`;

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FormFeedback should renders correctly 1`] = `
+exports[`should renders correctly 1`] = `
 <span
   className="msg-hidden"
 />
